@@ -72,38 +72,3 @@ export default class App extends Component<Props> {
     );
   }
 }
-
-// export default class App extends Component {
-
-//     render() {
-//       return(
-//         <View style = {{flex:1, flexDirection: 'column'}}>
-//             <View style = {{flex:1, justifyContent: 'space-between'}}>
-//                 <Image style = {{flex:1, resizeMode: 'contain', paddingBottom: 10}}
-//                  source = {{uri: 'http://pngimg.com/uploads/fcb_logo/fcb_logo_PNG23.png'}}/>
-//               <Text style = {{fontSize: 14}}>THIS IS THE TITLE. </Text>
-//           <Text style = {{fontSize: 12}}>THIS IS THE DESCRIPTION</Text>
-//             </View>
-//             <View style = {{flex:1 }}>
-//                 <Image style = {{flex:1}} source = {{uri: 'https://www.clipartmax.com/png/middle/232-2321271_manchester-united-fc-old-3-manchester-united-logo-vector.png'}}/>
-//             </View>
-//         </View>
-//       );
-//     }
-
-// }
-
-// class CellComponent extends Component {
-
-//     render() {
-//       return(
-//         <View style = {{flex:1, justifyContent: 'space-between', flexDirection: 'column'}}>
-//             <Image style = {{flex:1, resizeMode: 'contain', paddingBottom: 10}}
-//              source = {{uri: 'http://pngimg.com/uploads/fcb_logo/fcb_logo_PNG23.png'}}/>
-//           <Text style = {{fontSize: 16}}>THIS IS THE TITLE. </Text>
-//           <Text style = {{fontSize: 14}}>THIS IS THE DESCRIPTION</Text>
-//         </View>
-//       );
-//     }
-
-// }
