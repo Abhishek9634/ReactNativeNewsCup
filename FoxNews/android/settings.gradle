@@ -1,0 +1,3 @@
+rootProject.name = 'FoxNews'
+
+include ':app'
