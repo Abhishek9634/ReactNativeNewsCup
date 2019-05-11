@@ -20,21 +20,6 @@ import {
 
 type Props = {};
 
-// const CustomListItem = ({ title, description, imageUrl }) => (
-//     <View style = {{flex: 1,
-//                    justifyContent: 'space-between',
-//                    flexDirection: 'column',
-//                    alignItems: 'stretch',
-//                    borderRadius: 5,
-//                     borderWidth: 1,
-//                     borderColor: '#d6d7da', marginBottom: 10}}>
-//         <Image style = {{height: 200, resizeMode: 'contain'}}
-//             source = {{uri: imageUrl}}/>
-//         <Text style = {{fontSize: 14, fontWeight: "600", marginBottom: 5, marginTop: 10}}>{title}</Text>
-//         <Text style = {{fontSize: 12, marginBottom: 10}}>{description}</Text>
-//     </View>
-// );
-
 class MyListItem extends Component<Props> {
 
   constructor(props) {
@@ -107,11 +92,6 @@ export default class App extends Component<Props> {
         console.error(error);
       });
   }
-
-// const goToView2 = (guest) => {
-//       NavigationActions.view2(guest);
-//       console.log('Navigation router run...');
-//     };
 
   onPressItem = (source) => {
       alert("HI" +  source.title);
