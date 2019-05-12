@@ -33,7 +33,7 @@ export default class App extends Component {
   render() {
     return (
       <ImageBackground
-        source={require("./CodeBase/Assets/login_bg.png")}
+        source={require("./CodeBase/Resources/Assets/login_bg.png")}
         style={styles.container}
       >
         <View style={styles.superView}>
