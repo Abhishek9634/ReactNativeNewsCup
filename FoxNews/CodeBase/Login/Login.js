@@ -1,5 +1,6 @@
 
 import React, { Component } from "react";
+
 import {
   Platform,
   StyleSheet,
@@ -11,6 +12,8 @@ import {
   ImageBackground,
   TouchableOpacity
 } from "react-native";
+
+import { setupRootTabs } from "../Root/Root";
 
 type Props = {};
 export default class Login extends Component {
@@ -27,7 +30,8 @@ export default class Login extends Component {
       alert("Empty Credentials");
       return;
     }
-    alert(this.state.emailId + ", " + this.state.password);
+    // alert(this.state.emailId + ", " + this.state.password);
+    setupRootTabs();
   };
 
   render() {
