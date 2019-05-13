@@ -71,6 +71,16 @@ export default class NewsList extends Component<Props> {
     this.state = { isLoading: true };
   }
 
+  static get options() {
+    return {
+      topBar: {
+        title: {
+          text: "News"
+        }
+      }
+    };
+  }
+
   componentDidMount() {
     console.log("COMPONENT DID MOUNT");
     return fetch(
