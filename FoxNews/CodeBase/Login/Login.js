@@ -13,7 +13,7 @@ import {
 } from "react-native";
 
 type Props = {};
-export default class App extends Component {
+export default class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -33,7 +33,7 @@ export default class App extends Component {
   render() {
     return (
       <ImageBackground
-        source={require("./CodeBase/Resources/Assets/login_bg.png")}
+        source={require("../Resources/Assets/login_bg.png")}
         style={styles.container}
       >
         <View style={styles.superView}>
