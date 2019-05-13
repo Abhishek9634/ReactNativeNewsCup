@@ -13,9 +13,6 @@ export const setupRootTabs = () =>
                        {
                          component: {
                            name: "FoxNews.NewsList",
-                           title: {
-                             text: "Title"
-                           },
                            options: {
                              bottomTab: {
                                text: "News",
@@ -34,7 +31,7 @@ export const setupRootTabs = () =>
                      children: [
                        {
                          component: {
-                           name: "FoxNews.NewsList",
+                           name: "FoxNews.Sources",
                            options: {
                              bottomTab: {
                                text: "Source",

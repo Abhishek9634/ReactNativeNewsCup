@@ -17,6 +17,10 @@ Navigation.registerComponent(
   "FoxNews.NewsDetails", () => require("./CodeBase/News/NewsDetails").default
 );
 
+Navigation.registerComponent(
+  "FoxNews.Sources", () => require("./CodeBase/Source/Sources").default
+);
+
 Navigation.events().registerAppLaunchedListener(() => {
   Navigation.setRoot({
     root: {
