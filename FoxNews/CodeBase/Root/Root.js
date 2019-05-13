@@ -13,8 +13,8 @@ export const setupRootTabs = () =>
                      options: {
                        bottomTab: {
                          fontSize: 12,
-                         text: "News"
-                         // icon: require("../Resources/Assets/ic_news.png")
+                         text: "News",
+                         icon: require("../Resources/Assets/ic_news.png")
                        }
                      }
                    }
@@ -25,8 +25,8 @@ export const setupRootTabs = () =>
                      options: {
                        bottomTab: {
                          text: "Source",
-                         fontSize: 12
-                         // icon: require("../Resources/Assets/ic_source.png")
+                         fontSize: 12,
+                         icon: require("../Resources/Assets/ic_source.png")
                        }
                      }
                    }
