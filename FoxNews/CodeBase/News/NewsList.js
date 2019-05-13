@@ -18,6 +18,8 @@ import {
   TouchableWithoutFeedback
 } from "react-native";
 
+import { Navigation } from "react-native-navigation";
+
 type Props = {};
 
 class MyListItem extends Component<Props> {
@@ -91,7 +93,12 @@ export default class NewsList extends Component<Props> {
   }
 
   onPressItem = source => {
-    alert("HI" + source.title);
+    // alert(source.title);
+    Navigation.push(this.props.componentId, {
+      component: {
+        name: "FoxNews.NewsDetails"
+      }
+    });
   };
 
   render() {
